@@ -1,0 +1,390 @@
+header{
+    background-image:url(../img/img/bg.jpg);
+    background-size: cover ;
+    background-position: center center  ;
+    height: 100vh;
+}
+.layer
+{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+}
+
+header h1{
+    font-size: 3rem;
+    font-weight: 300;
+ 
+}
+header span{
+    font-size: 2.5rem;
+    
+}
+header h3{
+    font-size: 4rem;
+   
+}
+header h3::after
+{
+    content: "|";
+    animation: typing 10s infinite ;
+    -webkit-animation: typing 10s infinite ;
+}
+@keyframes typing
+{
+    0%{ content:"D|"}
+    1%{ content:"De|"}
+    2%{ content:"Des|"}
+    3%{ content:"Desi|"}
+    4%{ content:"Desin|"}
+    5%{ content:"Desine|"}
+    6%{ content:"Desiner|"}
+    15%{ content:"Desin|"}
+    16%{ content:"Desi|"}
+  17%{ content:"Des|"}
+   18%{ content:"De|"}
+    19%{ content:"D|"}
+    20%{ content:"|"}
+   21%{ content:"D|"}
+   22%{ content:"De|"}
+    23%{ content:"Dev|"}
+    24%{ content:"Devl|"}
+    25%{ content:"Devlo|"}
+    26%{ content:"Devlop|"}
+    27%{ content:"Devlope|"}
+    28%{ content:"Devloper|"}
+    40%{ content:"Devlope|"}
+    41%{ content:"Devlop|"}
+  42%{ content:"Devlo|"}
+    43%{ content:"Devl|"}
+    44%{ content:"Dev|"}
+    45%{ content:"De|"}
+    46%{ content:"D|"}
+    47%{ content:"|"}
+    48%{ content:"L|"}
+    50%{ content:"La|"}
+   51%{ content:"Lar|"}
+    52%{ content:"Larr|"}
+    53%{ content:"Larry|"}
+    60%{ content:"Larry D|"}
+    61%{ content:"Larry Da|"}
+    62%{ content:"Larry Dan|"}
+    63%{ content:"Larry Dani|"}
+    64%{ content:"Larry Danie|"}
+    65%{ content:"Larry Danie|"}
+    66%{ content:"Larry Daniel|"}
+    67%{ content:"Larry Daniels|"}
+    82%{ content:"Larry Daniel|"}
+    84%{ content:"Larry Danie|"}
+    86%{ content:"Larry Dani|"}
+    88%{ content:"Larry Dan|"}
+    90%{ content:"Larry Da|"}
+    92%{ content:"Larry D|"}
+    94%{ content:"Larry |"}
+   95%{ content:"Larry|"}
+    96%{ content:"Larr|"}
+    97%{ content:"La|"}
+    98%{ content:"L|"}
+    99%{ content:"|"}
+    100%{ content:"|"}
+}
+.part1 img{
+ width: 100%;
+
+}
+.hero::after
+{
+    content: '';
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: -20px;
+    bottom: -30px;
+    background-image: url(../img/img/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+.part1 .btn
+{
+    width: 150px!important;
+    margin-left: 0!important;
+}
+.zz{
+    background-color: #FFF !important;
+}
+.zz:hover
+{
+    background-color: #000 !important;
+}
+
+.part2 .fa-solid:hover
+{
+    color: #fff;
+    background-color: #000 !important;
+
+}
+.part3 img{
+    width: 100%;
+}
+.icon
+{
+    width: 100% !important;
+    height: 10% !important;
+
+}
+.port
+{
+    overflow: hidden;
+   
+}
+
+.port:hover .icon
+{
+    top: 0;
+    height: 100% !important;
+    
+}
+.part4
+{
+    height:  80vh ;
+}
+
+.cro button{
+    width: 10px !important;
+    height: 10px !important;
+}
+.cro{
+    top:100% !important;
+}
+.child1 h2::after
+{
+    content: "850";
+    animation:cont 1s  ;
+    -webkit-animation:cont 1s  ;
+}
+@keyframes cont
+{
+    0%{ content:"200"}
+    4%{ content:"250"}
+    8%{ content:"300"}
+    12%{ content:"350"}
+    16%{ content:"400"}
+    20%{ content:"450"}
+    24%{ content:"500"}
+    26%{ content:"550"}
+    30%{ content:"600"}
+    34%{ content:"620"}
+    38%{ content:"640"}
+    42%{ content:"660"}
+    46%{ content:"680"}
+    50%{ content:"700"}
+    54%{ content:"720"}
+    58%{ content:"740"}
+    62%{ content:"760"}
+    66%{ content:"780"}
+    74%{ content:"800"}
+    80%{ content:"810"}
+    86%{ content:"820"}
+    90%{ content:"830"}
+    95%{ content:"840"}
+    100%{ content:"850"}
+    
+  
+}
+.child2 h2::after
+{
+    content: "230";
+    animation:cont1 1s  ;
+    -webkit-animation:cont1 1s  ;
+}
+@keyframes cont1
+{
+    0%{ content:"5"}
+    2%{ content:"10"}
+    4%{ content:"15"}
+    6%{ content:"20"}
+    8%{ content:"25"}
+    10%{ content:"30"}
+    12%{ content:"35"}
+    14%{ content:"40"}
+    16%{ content:"45"}
+    19%{ content:"50"}
+   21%{ content:"55"}
+    23%{ content:"60"}
+    26%{ content:"70"}
+    28%{ content:"75"}
+    30%{ content:"80"}
+    32%{ content:"85"}
+    34%{ content:"90"}
+    36%{ content:"95"}
+    38%{ content:"100"}
+   40%{ content:"105"}
+    42%{ content:"110"}
+    44%{ content:"115"}
+    46%{ content:"120"}
+    48%{ content:"125"}
+    50%{ content:"130"}
+    52%{ content:"135"}
+    54%{ content:"140"}
+    56%{ content:"145"}
+    58%{ content:"150"}
+    60%{ content:"155"}
+   62%{ content:"160"}
+    64%{ content:"165"}
+    66%{ content:"170"}
+    68%{ content:"175"}
+    70%{ content:"180"}
+    72%{ content:"185"}
+   76%{ content:"190"}
+    78%{ content:"195"}
+    80%{ content:"200"}
+    82%{ content:"205"}
+    85%{ content:"210"}
+    88%{ content:"215"}
+    91%{ content:"220"}
+    96%{ content:"225"}
+    100%{ content:"230"}
+}
+.child3 h2::after
+{
+    content: "9450";
+    animation:cont2 1s  ;
+    -webkit-animation:cont2 1s  ;
+}
+@keyframes cont2
+{
+    0%{ content:"2000"}
+    4%{ content:"2500"}
+    8%{ content:"3000"}
+    12%{ content:"3500"}
+    16%{ content:"4000"}
+    20%{ content:"4500"}
+    24%{ content:"5000"}
+    28%{ content:"5500"}
+    32%{ content:"6000"}
+    36%{ content:"6500"}
+    40%{ content:"7000"}
+    44%{ content:"7500"}
+    47%{ content:"8000"}
+    50%{ content:"8500"}
+    54%{ content:"9000"}
+    58%{ content:"9050"}
+    62%{ content:"9100"}
+    66%{ content:"9150"}
+    72%{ content:"9200"}
+    76%{ content:"9250"}
+    80%{ content:"9300"}
+    83%{ content:"9350"}
+    86%{ content:"9400"}
+    89%{ content:"9410"}
+    92%{ content:"9420"}
+    96%{ content:"9430"}
+    98%{ content:"9440"}
+    100%{ content:"9450"}
+   
+}
+.child4 h2::after
+{
+    content: "780";
+    animation:cont3 1s  ;
+    -webkit-animation:cont3 1s  ;
+}
+@keyframes cont3
+{
+    0%{ content:"0"}
+    4%{ content:"50"}
+    8%{ content:"100"}
+    12%{ content:"150"}
+    16%{ content:"200"}
+    20%{ content:"250"}
+    24%{ content:"300"}
+    28%{ content:"350"}
+    32%{ content:"400"}
+    36%{ content:"450"}
+    40%{ content:"500"}
+    44%{ content:"550"}
+    48%{ content:"600"}
+    52%{ content:"650"}
+    56%{ content:"700"}
+    60%{ content:"710"}
+    64%{ content:"720"}
+    68%{ content:"730"}
+    72%{ content:"740"}
+    76%{ content:"750"}
+    80%{ content:"760"}
+    84%{ content:"770"}
+    88%{ content:"773"}
+    92%{ content:"775"}
+    96%{ content:"777"}
+    100%{ content:"780"}
+}
+.part6 img
+{
+width: 100%;
+}
+.part7 img
+{
+width: 100%;
+
+}
+.ov{
+    overflow: hidden;
+}
+.part7 button
+{
+    width: 10px !important;
+    height: 10px !important;
+   
+}
+h2{
+    font-size: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.part8 .fa-solid:hover
+{
+    background-color: #000 !important;
+    color: #fff !important;
+
+}
+.part8 .fa-brands:hover
+{
+    background-color: #000 !important;
+    color: #fff !important;
+
+}
+.con input{
+  
+    height: 50px;
+    background-color: rgb(237, 236, 236) !important;
+}
+textarea
+{
+
+    height: 200px !important;
+    background-color: rgb(237, 236, 236) !important;
+}
+.btn
+{
+    width: 120px;
+    background-color: #000;
+    color: #fff;
+
+}
+.btn:hover{
+    background-color: #fff !important;
+    color:#000 !important;
+}
+.part7 img:hover{
+    transform: scale(1.1,1.1);
+   
+}
+.clint{
+    width: 12%;
+   
+}
+.data{
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+}
